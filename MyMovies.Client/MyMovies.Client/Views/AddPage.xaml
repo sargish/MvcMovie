@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyMovies.Client.Views.AddPage" Title="Add">
+
+    <StackLayout Orientation="Vertical">
+        <Entry x:Name="TitleEntry" FontSize="30" Placeholder="Title"/>
+        <Entry x:Name="ReleaseDateEntry" FontSize="30" Placeholder="Release Date"/>
+        <Entry x:Name="PriceEntry" FontSize="30" Placeholder="Price"/>
+        <Entry x:Name="GenreEntry" FontSize="30" Placeholder="Genre"/>
+        <Entry x:Name="RatingEntry" FontSize="30" Placeholder="Rating"/>
+
+        <Button Text="Add Movie" FontSize="30" TextColor="White" BackgroundColor="Teal" Clicked="AddMovie_Clicked"/>
+    </StackLayout>
+</ContentPage>

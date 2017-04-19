@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyMovies.Client.Views.EditPage" Title="Edit">
+
+    <StackLayout>
+        <Entry x:Name="TitleEntry" FontSize="30"/>
+        <Entry x:Name="ReleaseDateEntry" FontSize="30"/>
+        <Entry x:Name="PriceEntry" FontSize="30"/>
+        <Entry x:Name="GenreEntry" FontSize="30"/>
+        <Entry x:Name="RatingEntry" FontSize="30"/>
+
+        <Button Text="Edit Movie" FontSize="30" TextColor="White" 
+                BackgroundColor="Navy" Clicked="EditMovie_Clicked"/>
+        <Button Text="Delete Movie" FontSize="30" TextColor="White" 
+                BackgroundColor="Red" Clicked="DeleteMovie_Clicked"/>
+    </StackLayout>
+</ContentPage>
